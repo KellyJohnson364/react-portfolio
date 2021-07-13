@@ -1,0 +1,43 @@
+main {
+  border: 10px solid #fff;
+  background-color:#162033 ;
+  background-size: cover;
+}
+
+/* Section headers */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color:#f5272e;
+  font-size: 40px;
+  padding: 20px;  
+  padding-bottom: 50px;
+}    
+
+/* About ME*/
+
+#about-me {
+  line-height: 1.5;
+  color:#ffffff;
+  font-size: 24px;
+  padding: 30px;
+  border-bottom: 5px solid #fff;
+}
+
+/*Projects*/
+
+#projects {
+
+  border-bottom: 5px solid #fff;   
+  
+}
+
+
+#container {
+  
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  align-content: center;
+} 

@@ -1,0 +1,42 @@
+.projectImg {
+  height: 400px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-size: 25px;    
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.select {
+  color: #162033;
+  background-color: #f1f1f1;
+  border: 3px solid rgb(126, 163, 145);
+  text-decoration: none;
+  display: block;
+}
+.projectTitle {
+  padding: 10px;
+  background-color: #162033;
+  color: rgb(36, 175, 108);   
+}
+
+
+/* Change color of dropdown links on hover */
+.dropdown-content button:hover {
+  color: #fff;
+
+    transform:scale(1.1);
+  }
+
+  .dropdown-content button:active {
+    color: #fff;
+      background-color: #ddd;
+      transform:scale(1.1);
+    }
+  
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
