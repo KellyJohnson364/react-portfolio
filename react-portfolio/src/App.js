@@ -7,12 +7,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App Container col-12">
-      <div className="row">
+    <div className="App container-fluid p-0">
+  
         <Header/>
         <Hero/>
         <Main/>
-      </div>
+     
     </div>
   );
 }

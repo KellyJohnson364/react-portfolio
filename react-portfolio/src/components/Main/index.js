@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Project } from '../Project';
+import { Assignment, Project } from '../Project';
 import './style.css';
 
 export default class Main extends Component {
@@ -7,8 +7,8 @@ export default class Main extends Component {
         return (
             <main>
     
-              <div className="container-fluid col-12" id="about-me">
-                <h2>About Me</h2>
+              <div className="" id="about-me">
+                <h2 className=" text-center">About Me</h2>
                   <p> My name is Kelly Johnson and I am a full stack web developer from Grand Rapids, MI. I have recently completed the full stack web development certificate program through Michigan State University.</p>
                   <p> I have a firm grasp of HTML5, CSS3, Javascript, jQuery, and Bootstrap, but am particularly excited to continue working with Node.js., Express.js, MongoDB,
                       MySQL, and most of all, React.js. I have built up a portfolio of class projects that I am proud of and look forward to adding personal projects.</p>
@@ -16,13 +16,13 @@ export default class Main extends Component {
               </div>
 
               <div id="projects" >
-                <h2 className="mb-5">Projects</h2>
-                <div id="container" className="container-fluid col-12">
-                  <div className="column">
+                <h2 className=" text-center">Projects</h2>
+                <div id="container" className="container-fluid p-0 col-12">
+                  <div className="row justify-content-center">
                     <Project
                       id="project1"
                       img="image1"
-                      src="./assets/images/screenshot-6.png"
+                      src="./assets/images/brews-n-loos.png"
                       alt="brews-loos"
                       title="brews-loos"
                       btn="btn1"
@@ -30,7 +30,7 @@ export default class Main extends Component {
                     <Project
                       id="project2"
                       img="image2"
-                      src="./assets/images/screenshot-12.png"
+                      src="./assets/images/bashful-diner.png"
                       alt="bashful-diner"
                       title="bashful-diner"
                       btn="btn2"
@@ -38,17 +38,32 @@ export default class Main extends Component {
                     <Project
                       id="project3"
                       img="image3"
-                      src="./assets/images/inspecto-gadget.png"
+                      src="./assets/images/inspecto.png"
                       alt="inspecto-gadget"
                       title="inspecto-gadget"
                       btn="btn3"
                       project="Inspecto-Gadget"/>
-                  </div>    
-                </div>  
+                    <Assignment
+                      id="assgn1"
+                      img="image4"
+                      src="./assets/images/weather.png"
+                      alt="weather-dashboard"
+                      title="weather-dashboard"
+                      btn="btn4"
+                      project="Weather Dashboard"/>  
+                     <Assignment
+                      id="assgn2"
+                      img="image5"
+                      src="./assets/images/employee-directory.png"
+                      alt="employee-directory"
+                      title="employee-directory"
+                      btn="btn5"
+                      project="Employee Directory"/>    
+                          </div>
+                          </div>
               </div>
-
               <div id="contact-info" >
-                <h2>Contact Info</h2>
+              <h2 className=" text-center">Contact Info</h2>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus. Totam nihil similique a repellat minus dolor amet quasi. Corporis nulla quaerat iste, sed quasi ab dolorem maxime minima animi.
               </div>
             </main>

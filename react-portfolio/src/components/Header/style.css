@@ -1,31 +1,19 @@
 header {
-    margin-top: 5px;
+    
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #23324f;
     color: #f5272e;  
+ 
 }
 
-h1 {
-    display: inline-block;
-    font-size: 48px;
-    padding-left: 20px;
-}
-
-nav {
-    margin-top: 5px;
-    padding-top: 15px;
-    margin-right: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
-}
-span :hover {     
-    box-shadow: 0 0 10px #ccc;
+li:hover {     
+    color: #f5272e;  
     font-size: 180%;
 }
  
 li {
-    display: inline-block;
+    text-align: center;
     margin-left: 20px;  
 }   
 
@@ -39,36 +27,33 @@ li {
 
 /* Cursor behavior for links */
 
-li:hover {
-    color: #f5272e;  
-  }
 li:active {
-    font-size: 180%;
-    box-shadow: 0 0 10px #f5272e inset;
+    font-size: 250%;
+    color: #fff
+}
+h1 {
+    font-size: 50px;
+    text-align: left;
+    color: #f5272e;  
 }
 @media screen and (max-width: 992px) {
-    nav {
-        float: right;
-    }
-    header, nav {
-        display: flex;   
-        flex-direction: column;
-        text-align: center;
-       }
-
+    
 /* Change the header color */
 
     header {
+      padding: 15px;
+      text-align: center;  
       background:  #562E52;
+     
     }
 }
 @media screen and (max-width: 600px) {
     h1 {
-    text-align: center;    
+    text-align: center;  
+    font-size: 40px;  
     }  
     header, nav {
-     display: flex;   
-     flex-direction: column;
+ 
      text-align: center;
     }
 
@@ -76,5 +61,6 @@ li:active {
  
     header {
       background: #5381af;
+     
     }
 } 

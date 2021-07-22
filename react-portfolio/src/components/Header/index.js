@@ -7,17 +7,15 @@ export default class header extends Component {
     render() {
         return (
 
-        <header className="container col-12">
-          <div className="row">
-          <h1><span className="col-6">Kelly Johnson</span></h1>
-            <nav className="col-6">
-              <ul>
-                  <li><Link  to="about-me" spy={true} smooth={true}>About Me</Link></li>
-                  <li><Link  to="projects" spy={true} smooth={true}>Projects</Link></li>
-                  <li><Link  to="contact-info" spy={true} smooth={true}>Contact Info</Link></li>
+        <header className="container-fluid">
+        
+              <ul className="row" >
+                  <li className="col-sm-12 col-md-4 "><h1>Kelly Johnson</h1></li>
+                  <li className="col-sm-12 col-md-2"><Link  to="about-me" spy={true} smooth={true}>About Me</Link></li>
+                  <li className="col-sm-12 col-md-2"><Link  to="projects" spy={true} smooth={true}>Projects</Link></li>
+                  <li className="col-sm-12 col-md-2"><Link  to="contact-info" spy={true} smooth={true}>Contact Info</Link></li>
                 </ul>
-            </nav>
-            </div>
+      
         </header>
         )
     }
