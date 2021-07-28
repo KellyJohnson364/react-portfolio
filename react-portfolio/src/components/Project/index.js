@@ -27,7 +27,7 @@ export function Project(props) {
       return (
     
                   
-                    <div id= {props.id} className=" assgn col-md-5 col-sm-10">
+                    <div id= {props.id} className=" project col-md-4 col-sm-10">
                         <div className="dropdown  col-12">
                           <button onClick={props.onClick} id ={props.btn} className="assgnTitle col-12">{props.project}</button>
                           <div className="dropdown-content p-0 col-12">

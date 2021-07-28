@@ -4,20 +4,20 @@ a {
 }
 .projectImg {
   height: 300px;
-  border: 10px solid #f5272e;  
+  border: 10px solid #383333;  
   border-radius: 10px;
   padding: 0px;
 }
 .assgnImg {
   height: 300px;
-  border: 10px solid #f5272e;  
+  border: 10px solid #383333;  
   border-radius: 10px;
    padding: 0px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown {
-   border: 10px solid #f5272e;  
+   border: 10px solid #383333;  
   border-radius: 10px;
   top: 4%;
   font-size: 25px;    
@@ -29,7 +29,7 @@ a {
 
 #contacts {
   line-height: 1.5;
-  color:#ffffff;
+  color:#162033 ;
   font-size: 24px;
   padding: 30px;
   border-bottom: 5px solid #fff;
@@ -56,7 +56,7 @@ a {
 
   color: #f5272e; 
   width: 100%; 
-  background-color: hsl(169, 71%, 41%);
+  background-color: #d7dbe2;
   text-decoration: none;
   display: block;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -65,14 +65,10 @@ a {
 
 
 /* Change color of dropdown links on hover */
-.dropdown:hover {
-  transform:scale(1.1);
- border-radius: 0px;
-  }
 
   .dropdown:active {
-    background-color: #ddd;
-    transform:scale(1.1);
+    background-color: rgb(122, 121, 121);
+
   }
   
 /* Links inside the dropdown */
@@ -82,11 +78,13 @@ a {
   display: block;
   padding: 10px;
   padding-left: 15px !important;
-  background-color: hsl(169, 71%, 41%);
+  background-color: #162033;
   color: #fff;
 }
 
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.project:hover .dropdown-content {
+  display: block;
+}
 

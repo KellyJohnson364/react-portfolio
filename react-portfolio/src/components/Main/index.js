@@ -7,7 +7,7 @@ export default class Main extends Component {
         return (
             <main>
     
-              <div className="" id="about-me">
+              <div className="pb-3" id="about-me">
                 <h2 className=" text-center">About Me</h2>
                   <p> My name is Kelly Johnson and I am a full stack web developer from Grand Rapids, MI. I have recently completed the full stack web development certificate program through Michigan State University.</p>
                   <p> I have a firm grasp of HTML5, CSS3, Javascript, jQuery, and Bootstrap, but am particularly excited to continue working with Node.js., Express.js, MongoDB,
@@ -15,7 +15,7 @@ export default class Main extends Component {
                   <p> I am actively applying and am eager to find my place on the right development team!    </p>
               </div>
 
-              <div id="projects" >
+              <div className="pb-4" id="projects" >
                 <h2 className=" text-center">Projects</h2>
                 <div id="container" className="container-fluid p-0 col-12">
                   <div className="row justify-content-center">
@@ -26,7 +26,11 @@ export default class Main extends Component {
                       alt="brews-loos"
                       title="brews-loos"
                       btn="btn1"
-                      project="Good Brews and Neutral Loos"/>
+                      project="Good Brews and Neutral Loos"
+                      site= "https://kellyjohnson364.github.io/brews-and-loos/"
+                      repo= "https://github.com/KellyJohnson364/brews-and-loos"
+                      />
+                      
                     <Project
                       id="project2"
                       img="image2"
@@ -34,7 +38,10 @@ export default class Main extends Component {
                       alt="bashful-diner"
                       title="bashful-diner"
                       btn="btn2"
-                      project="The Bashful Diner"/>
+                      project="The Bashful Diner"
+                      site= "http://www.thebashfuldiner.com/"
+                      repo= "https://github.com/KellyJohnson364/the-bashful-diner"
+                      />
                     <Project
                       id="project3"
                       img="image3"
@@ -42,7 +49,12 @@ export default class Main extends Component {
                       alt="inspecto-gadget"
                       title="inspecto-gadget"
                       btn="btn3"
-                      project="Inspecto-Gadget"/>
+                      project="Inspecto-Gadget"
+                      site= "https://arcane-taiga-84005.herokuapp.com/"
+                      repo= "https://github.com/KellyJohnson364/inspecto-gadget"
+                      />
+                      </div>
+                      <div className="row justify-content-center">
                     <Assignment
                       id="assgn1"
                       img="image4"
@@ -50,7 +62,10 @@ export default class Main extends Component {
                       alt="weather-dashboard"
                       title="weather-dashboard"
                       btn="btn4"
-                      project="Weather Dashboard"/>  
+                      project="Weather Dashboard"
+                      site= "https://kellyjohnson364.github.io/weather-dashboard/"
+                      repo= "https://github.com/KellyJohnson364/weather-dashboard"
+                      />
                      <Assignment
                       id="assgn2"
                       img="image5"
@@ -58,13 +73,24 @@ export default class Main extends Component {
                       alt="employee-directory"
                       title="employee-directory"
                       btn="btn5"
-                      project="Employee Directory"/>    
+                      project="Employee Directory"
+                      site= "https://kellyjohnson364.github.io/employee-directory/"
+                      repo= "https://github.com/KellyJohnson364/employee-directory"
+                      />    
                           </div>
                           </div>
               </div>
               <div id="contact-info" >
-              <h2 className=" text-center">Contact Info</h2>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, repellendus. Totam nihil similique a repellat minus dolor amet quasi. Corporis nulla quaerat iste, sed quasi ab dolorem maxime minima animi.
+              <h2>Contact Information</h2>
+                  <div id="contacts">
+                    <p>Kelly Johnson</p>
+                    <p>(616) 485-0827</p>  
+                    <p>Resume: <a target="_blank" href="./images/Resume (1).pdf">Resume.pdf</a></p>  
+                    <p>Email:  <a target="_blank" href= "mailto:kj3641402@gmail.com">KJ3641402@gmail.com</a></p>  
+                    <p>GitHub Profile: <a target="_blank" href= "https://github.com/KellyJohnson364">KellyJohnson364</a></p>  
+                    <p>Linkedin: <a target="_blank" href= "https://www.linkedin.com/in/kelly-johnson-473227202">linkedin.com/in/KellyJohnson364</a></p>  
+                  </div>
+
               </div>
             </main>
         )
