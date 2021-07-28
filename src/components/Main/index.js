@@ -85,7 +85,7 @@ export default class Main extends Component {
                   <div id="contacts">
                     <p>Kelly Johnson</p>
                     <p>(616) 485-0827</p>  
-                    <p>Resume: <a target="_blank" href="./assets/images/resume.pdf">Resume.pdf</a></p>  
+                    <p>Resume: <a target="_blank" href="./assets/images/resume-1.pdf">Resume.pdf</a></p>  
                     <p>Email:  <a target="_blank" href= "mailto:kj3641402@gmail.com">KJ3641402@gmail.com</a></p>  
                     <p>GitHub Profile: <a target="_blank" href= "https://github.com/KellyJohnson364">KellyJohnson364</a></p>  
                     <p>Linkedin: <a target="_blank" href= "https://www.linkedin.com/in/kelly-johnson-473227202">linkedin.com/in/KellyJohnson364</a></p>  
