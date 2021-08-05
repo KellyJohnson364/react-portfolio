@@ -81,7 +81,7 @@ export default class Main extends Component {
                           </div>
               </div>
               <div id="contact-info" >
-              <h2>Contact Information</h2>
+              <h2 className=" text-center" >Contact Information</h2>
                   <div id="contacts">
                     <p>Kelly Johnson</p>
                     <p>(616) 485-0827</p>  
