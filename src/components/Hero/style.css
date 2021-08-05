@@ -46,7 +46,7 @@
 #greeting {
   font-weight: 450;
   margin: auto;
-  color:black;
+  color:#162033;
   font-family: 'Montserrat', sans-serif;
 }
 @media screen and (max-width: 736px) {
