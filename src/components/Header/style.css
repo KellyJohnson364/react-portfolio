@@ -6,6 +6,9 @@ header {
     color: #cf3a3f;  
  
 }
+a {
+    margin-bottom: 10px; 
+}
 
 li:hover {     
     color: #cf3a3f;  
