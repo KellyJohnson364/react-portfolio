@@ -9,7 +9,7 @@ export default class header extends Component {
 
         <header className="container-fluid">
         
-              <ul className="row" >
+              <ul className="row pb-2" >
                   <li className="col-sm-12 col-md-4 "><h1 className=" text-center" >Kelly Johnson</h1></li>
                   <li className="col-sm-12 col-md-2"><Link  to="about-me" spy={true} smooth={true}>About Me</Link></li>
                   <li className="col-sm-12 col-md-2"><Link  to="projects" spy={true} smooth={true}>Projects</Link></li>
