@@ -5,14 +5,14 @@
   margin: 0 0 0 0;
   background-size: cover;
   background-position: center;
-  max-height: 650px;
+
  
 }
 
 /* My photo */
 
 #me { 
-  max-height: 450px;
+ 
   margin-left: 150px !important;
   opacity: 1 !important;
   background-color:#fff;
@@ -51,6 +51,7 @@
 }
 @media screen and (max-width: 992px) {
   #me { 
+    max-height: 600px;
     width: 60%;
     margin-left: 100px !important;
     opacity: 1 !important;
@@ -64,6 +65,7 @@
 }
 @media screen and (max-width: 500px) {
   #me { 
+    max-height: 450px;
     width: 70%;
     margin-left: 50px !important;
     opacity: 1 !important;
