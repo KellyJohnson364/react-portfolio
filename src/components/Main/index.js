@@ -9,10 +9,12 @@ export default class Main extends Component {
     
               <div className="pb-3" id="about-me">
                 <h2 className=" text-center">About Me</h2>
-                  <p> My name is Kelly Johnson and I am a full stack web developer from Grand Rapids, MI. I have recently completed the full stack web development certificate program through Michigan State University.</p>
-                  <p> I have a firm grasp of HTML5, CSS3, Javascript, jQuery, and Bootstrap, but am particularly excited to continue working with Node.js., Express.js, MongoDB,
-                      MySQL, and most of all, React.js. I have built up a portfolio of class projects that I am proud of and look forward to adding personal projects.</p>
-                  <p> I am actively applying and am eager to find my place on the right development team!    </p>
+                  <div className="bio">
+                    <p> My name is Kelly Johnson and I am a full stack web developer from Grand Rapids, MI. I have recently completed the full stack web development certificate program through Michigan State University.</p>
+                    <p> I have a firm grasp of HTML5, CSS3, Javascript, jQuery, and Bootstrap, but am particularly excited to continue working with Node.js., Express.js, MongoDB,
+                        MySQL, and most of all, React.js. I have built up a portfolio of class projects that I am proud of and look forward to adding personal projects.</p>
+                    <p> I am actively applying and am eager to find my place on the right development team!    </p>
+                   </div>
               </div>
 
               <div className="pb-4" id="projects" >
