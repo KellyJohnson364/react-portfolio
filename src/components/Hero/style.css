@@ -52,7 +52,7 @@
 @media screen and (max-width: 992px) {
   #me { 
     max-height: 350px;
-    width: 20%;
+    width: 30% !important;
     margin-left: 100px !important;
     opacity: 1 !important;
     background-color:#fff;
