@@ -17,7 +17,7 @@ export default class Main extends Component {
 
               <div className="pb-4" id="projects" >
                 <h2 className=" text-center">Projects</h2>
-                <div id="container" className="container-fluid p-0 col-12">
+                <div id="container" className="container-fluid p-0 col-12"style={{ backgroundImage: "url(./assets/images/geometric-background.jpg)" }} >
                   <div className="row justify-content-center">
                     <Project
                       id="project1"
